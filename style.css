@@ -1,0 +1,381 @@
+
+.header{
+    background-image: url('/Project/Images/main\ bg\ img.jpg');
+    background-size:cover;
+    height: 750px;
+    margin: auto;
+    border-radius:40px;
+    position:relative;
+    left:-10px;
+
+}
+.logos
+{
+    border: none;
+    background-color: transparent;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.arrows{
+  
+   background-color: #e3196d;
+   margin-top:-50px;
+}   
+.logo{
+    height:230px;
+    margin-top:10px;
+}
+.nav{
+   margin-top:-100px;
+   margin-left:480px;    
+   word-spacing:20px;
+   
+}
+.navv{
+    text-align: center;
+    margin-top:-100px;
+    
+}
+.nav a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+    color: black;
+    font-size:18px;
+    letter-spacing: 0.5px;
+    padding:0 10px;
+}
+.nav a::after{
+    content: "";
+    position: absolute;
+    background-color: #e3196d;
+    height:2px;
+    width:0;
+    left:0;
+    bottom:-5px;
+    transition:0.4s;
+    
+}
+.nav a:hover:after{
+    width:100%
+}
+.nav a:hover{
+    color:rgb(166, 163, 163);
+} 
+#search{
+    height:25px;
+    border-radius:9px;
+    background-color:transparent;
+
+}
+.sticky {
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+
+#f{
+    color: #e3196d;
+    margin-top: 120px;
+    margin-left: 100px;
+    font-size: 70px;
+    font-family: 'Playfair Display', serif;
+}
+#title{
+
+    margin-left: 140px;
+    margin-top: -125px;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+}
+#love{
+    margin-left:100px;
+    margin-top: -40px;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;           
+}
+.subtitle{
+    margin-left:60px;
+    font-size:25px;
+    margin-top: -10px;
+     
+}
+.button{
+    font-family: 'Roboto', sans-serif;
+    font-size:22px;
+    background-color: #c3baba;
+    width:130px;
+    height:35px;
+    border:none;
+    margin-left:100px;
+    border-radius:0px 20px 0px 0px;
+    color: #e3196d;
+}
+.topproduct{
+    background-image:url('/Furniture/Images/topbg.jpg');
+    background-repeat:no-repeat;
+    background-size:250px;
+    background-position:top left;
+    
+}
+
+.product{
+    height:180px;
+    margin-left:70px;
+    
+
+}
+.foot{
+    height:280px;
+    background-image: url('/furniture/Images/footer_img-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size:300px;
+    background-position:1000px;
+   
+}
+
+.flogo{
+    height:230px;
+    margin-top:-90px;
+    margin-left:40px;
+}
+.contact{
+    margin-left:320px;
+    margin-top:-230px;
+}
+.product{
+    margin-left:700px;
+    margin-top:-270px;
+}
+.help{
+   margin-left:910px;
+   margin-top:-200px;
+}
+#fimg{
+    height:300px;
+    margin-left:1000px;
+}
+.picon{
+    position: relative;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+    color: #e3196d;
+    font-size:18px;
+    letter-spacing: 0.5px;
+    padding:0 10px;
+
+    
+}
+
+.picon:after{
+    content: "";
+    position: absolute;
+    background-color: #e3196d;
+    height:2px;
+    width:0;
+    left:0;
+    bottom:-5px;
+    transition:0.4s;
+    
+}
+.picon:hover:after{
+    width:100%
+}
+.picon:hover{
+    color:rgb(166, 163, 163);
+} 
+.yash{
+    
+    border-radius:20px;
+    width:240px;
+    text-align:center;
+    height:300px;
+    background-color: #ffffff;
+    box-shadow:10px 0px 25px 0px #959595;
+    
+}
+.yashbutton{
+    height:30px;
+    width:95px;
+   text-align:center;
+    border-radius: 20px 0px 20px 0px;
+    font-size:13px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow:2px 2px #e3196d;
+    
+    
+}
+.heart{
+    
+    margin-left:180px;
+    margin-top:10px;
+    
+}
+.whyimg{
+    box-shadow:10px 0px 30px 0px #b4b2b2;
+}
+.choose
+{
+    background-image: url('/Furniture/Images/Products/lamp-removebg-preview.png');
+    background-repeat:no-repeat;
+    background-position:1130px;
+    background-position-y:-70px;
+}
+.all{
+    
+    margin-left:-10px;
+    margin-bottom:20px;
+}
+
+
+#navbarr{
+    font-size: 30px;
+}
+
+.login{
+    border: 1px solid black;
+    justify-content:center ;
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+   display: none;
+}
+.hamburger
+{
+    display: none;
+    background-color: transparent;
+    border: none;
+    height:25px;
+    margin-left:5px;
+    position: absolute;
+    top:30px;
+   
+    
+}
+.againshow_why
+{
+    display: none;
+}
+
+@media (max-width:601px )
+{  
+    .header{
+        background-image: url('/Project/Images/pexels-dada-design-12277637small.jpg');
+        background-size:contain;
+        background-repeat: no-repeat;
+        
+    }
+   .logo{
+     height:230px;
+     margin-left:-20px;
+   }
+   .hide{
+    display: none;
+   }
+   #search
+   {
+    display: inline-block;
+    margin-left:-250px;
+   }
+   
+   .name{
+    
+    margin-left:400px;
+   }
+   .subtitle{
+    display: none;
+    height:30px;
+   }
+   #f{
+   
+    font-size: 60px;
+    
+   
+  }
+  #title{
+    font-size: 60px;
+    
+    
+  }
+  .againshow_why
+{
+    display: inline;
+}
+  #love
+  {
+    font-size: 50px;
+   
+  }
+  .name{
+    margin: auto;
+    position:absolute;
+    top:10px;
+  }
+  .BuyNow{
+    height:-30px;
+  }
+  .one{
+    margin-left:-20px;
+  }
+  .hamburger
+  {
+    display:inline;
+  }
+  .whychoose{
+    position: absolute;
+    top:400px;
+  }
+  .dottedarea
+  {
+    display: none;
+  }
+  .serviceswhy{
+   display: none;
+  }
+  .subwhychoose
+  {
+    margin-left: 40px;
+  }
+  .allicon{
+    margin-left:-400px;
+  }
+  .thirdforth{
+    display: none;
+  }
+  
+}
+@media (min-width:1024px )
+{
+    .header{
+        background-image: url('/Project/Images/main\ bg\ img.jpg');
+    
+        background-size:cover;
+        background-position: center;
+        height: 750px;
+       
+        margin-top: -120px;
+        margin-right: -8PX;
+    }
+    .nav{
+        text-align: right;
+    }
+   
+}
+@media (min-width:1326px )
+{
+  .header{
+    width:1326px;
+  }
+
+}
